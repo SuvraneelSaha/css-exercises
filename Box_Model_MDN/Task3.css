@@ -1,0 +1,10 @@
+.box span {
+  background-color: pink;
+  border: 5px solid black;
+  padding: 1em;
+
+  display:inline-block;
+  /* inline block behaves like both the block and inline element properties 
+  its a mixture of both . */
+}
+    

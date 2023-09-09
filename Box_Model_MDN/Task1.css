@@ -1,0 +1,19 @@
+.box {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 40px;
+  margin: 40px;
+  width: 300px;
+  height: 150px;
+}
+
+.alternate {
+  box-sizing: border-box;
+  width:390px;
+  /* as the main content size is 300 in the .box class 
+  along with the padding and border it becomes 390 as total width  */
+  /* and as in case of box-sizing property - border-box only the total width is taken not taking in 
+  account of the padding and the border */
+
+  /* MBR Principles varies in normal box-sizing and in the border-box  */
+}
